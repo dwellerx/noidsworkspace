@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/noidsworkspace/static/css/main.82bfdc66.css",
-    "main.js": "/noidsworkspace/static/js/main.436cfb6d.js",
+    "main.js": "/noidsworkspace/static/js/main.73c0144c.js",
     "static/js/453.aeb5cb57.chunk.js": "/noidsworkspace/static/js/453.aeb5cb57.chunk.js",
     "static/media/Untitled.png": "/noidsworkspace/static/media/Untitled.f282e9dcfdf199f2318d.png",
     "static/media/image.png": "/noidsworkspace/static/media/image.ac1bb409bc2fcda733d6.png",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/noidsworkspace/static/media/logo.0ffb7e27d3e1ba56f99dd88ff535bf57.svg",
     "index.html": "/noidsworkspace/index.html",
     "main.82bfdc66.css.map": "/noidsworkspace/static/css/main.82bfdc66.css.map",
-    "main.436cfb6d.js.map": "/noidsworkspace/static/js/main.436cfb6d.js.map",
+    "main.73c0144c.js.map": "/noidsworkspace/static/js/main.73c0144c.js.map",
     "453.aeb5cb57.chunk.js.map": "/noidsworkspace/static/js/453.aeb5cb57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82bfdc66.css",
-    "static/js/main.436cfb6d.js"
+    "static/js/main.73c0144c.js"
   ]
 }
