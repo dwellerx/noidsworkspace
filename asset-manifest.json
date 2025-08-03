@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/noidsworkspace/static/css/main.82bfdc66.css",
-    "main.js": "/noidsworkspace/static/js/main.d3442f7d.js",
-    "static/js/453.aeb5cb57.chunk.js": "/noidsworkspace/static/js/453.aeb5cb57.chunk.js",
-    "static/media/Untitled.png": "/noidsworkspace/static/media/Untitled.f282e9dcfdf199f2318d.png",
-    "static/media/image.png": "/noidsworkspace/static/media/image.ac1bb409bc2fcda733d6.png",
-    "static/media/Helvetica-Bold.ttf": "/noidsworkspace/static/media/Helvetica-Bold.ed57aca7292971d8548c.ttf",
-    "static/media/munika-light.otf": "/noidsworkspace/static/media/munika-light.c4c132a9ea871dd71eb6.otf",
-    "static/media/Grotesk Medium.ttf": "/noidsworkspace/static/media/Grotesk Medium.17aa7d6d38dbd85af7eb.ttf",
-    "static/media/munika-regular.otf": "/noidsworkspace/static/media/munika-regular.100fedbd7ee7405bddb7.otf",
-    "static/media/munika-heavy.otf": "/noidsworkspace/static/media/munika-heavy.80ae41c00005920e7073.otf",
-    "static/media/Karantina-Regular.ttf": "/noidsworkspace/static/media/Karantina-Regular.9844915e3fa387c180fe.ttf",
-    "static/media/logo.svg": "/noidsworkspace/static/media/logo.0ffb7e27d3e1ba56f99dd88ff535bf57.svg",
-    "index.html": "/noidsworkspace/index.html",
-    "main.82bfdc66.css.map": "/noidsworkspace/static/css/main.82bfdc66.css.map",
-    "main.d3442f7d.js.map": "/noidsworkspace/static/js/main.d3442f7d.js.map",
-    "453.aeb5cb57.chunk.js.map": "/noidsworkspace/static/js/453.aeb5cb57.chunk.js.map"
+    "main.css": "/static/css/main.d9b5ed92.css",
+    "main.js": "/static/js/main.a03b8a05.js",
+    "static/js/453.aeb5cb57.chunk.js": "/static/js/453.aeb5cb57.chunk.js",
+    "static/media/Untitled.png": "/static/media/Untitled.f282e9dcfdf199f2318d.png",
+    "static/media/image.png": "/static/media/image.ac1bb409bc2fcda733d6.png",
+    "static/media/Helvetica-Bold.ttf": "/static/media/Helvetica-Bold.ed57aca7292971d8548c.ttf",
+    "static/media/munika-light.otf": "/static/media/munika-light.c4c132a9ea871dd71eb6.otf",
+    "static/media/Grotesk Medium.ttf": "/static/media/Grotesk Medium.17aa7d6d38dbd85af7eb.ttf",
+    "static/media/munika-regular.otf": "/static/media/munika-regular.100fedbd7ee7405bddb7.otf",
+    "static/media/munika-heavy.otf": "/static/media/munika-heavy.80ae41c00005920e7073.otf",
+    "static/media/Karantina-Regular.ttf": "/static/media/Karantina-Regular.9844915e3fa387c180fe.ttf",
+    "static/media/logo.svg": "/static/media/logo.0ffb7e27d3e1ba56f99dd88ff535bf57.svg",
+    "index.html": "/index.html",
+    "main.d9b5ed92.css.map": "/static/css/main.d9b5ed92.css.map",
+    "main.a03b8a05.js.map": "/static/js/main.a03b8a05.js.map",
+    "453.aeb5cb57.chunk.js.map": "/static/js/453.aeb5cb57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82bfdc66.css",
-    "static/js/main.d3442f7d.js"
+    "static/css/main.d9b5ed92.css",
+    "static/js/main.a03b8a05.js"
   ]
 }
