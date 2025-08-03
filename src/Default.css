@@ -1,0 +1,333 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow:  hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+    font-family: 'MunikaHeavy'; 
+    src: url('fonts/munika-heavy.otf') format('opentype'); 
+}
+
+@font-face {
+    font-family: 'HelveticaSemibold';
+    src: url('fonts/Helvetica-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GroteskMedium';
+    src: url('fonts/Grotesk Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MunikaMedium'; 
+    src: url('fonts/munika-regular.otf') format('opentype'); 
+}
+
+@font-face {
+    font-family: 'KaratinaRegular'; 
+    src: url('fonts/Karantina-Regular.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-family: 'MunikaLight'; 
+    src: url('fonts/munika-light.otf') format('opentype'); 
+}
+
+.page-wrapper {
+  position: relative;
+}
+
+.error-description {
+  color: rgb(235, 178, 178);
+  font-size: 4dvh;
+  top: 20dvh;
+  font-family: 'KaratinaRegular';
+  position: relative;
+}
+
+.app-content.faded {
+  opacity: 0.2;
+  pointer-events: none;
+  user-select: none;
+  transition: opacity 0.3s;
+}
+/* start */ 
+.list-button-container {
+  display: flex;
+  background-color: rgba(255, 255, 255);
+  width: 250px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px,
+        rgba(255, 255, 255, 1) 5px 10px 15px;
+}
+
+.list-button {
+  outline: 0 !important;
+  border: 0 !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.list-button:hover {
+  transform: translateY(-3px);
+}
+.continueError {
+  background-color: transparent;
+  color: #fff;
+  font-family: 'HelveticaSemibold';
+  width: 8vw;         
+  height: 3.5vh;           
+  position: fixed;
+  bottom: 37vh;          
+  right: 50vw;           
+  border: 0.08vw solid #fff;
+  border-radius: 1.5vh;
+  text-align: right;
+  transition: all 0.6s ease;
+  transform: translate(50%, 50%);
+}
+
+.continueError:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.continueError:hover .continue-text-error {
+  color: #303030;
+}
+
+.continueError:hover svg {
+  filter: invert(1);
+}
+
+.continueError svg {
+  width: 1.6vh;
+  margin: -0.25vh 0.8vh 1vh;
+  position: absolute;
+  display: flex;
+  transition: all 0.6s ease;
+}
+
+.continueError:hover svg {
+  transform: translateX(.5dvh);
+}
+
+.continue-text-error {
+  margin: 0 1.5vw;
+  font-size: 1.2dvh;
+  color: #fff;
+}
+
+
+
+.list-icons {
+  filter: invert(1);
+  font-size: 20px;
+}
+/*
+end  
+*/
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1000;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+.continue {
+  background-color: transparent;
+  color: #fff;
+  font-family: 'HelveticaSemibold';
+  width: 8vw;         
+  height: 3.5vh;           
+  position: fixed;
+  bottom: 37vh;          
+  right: 50vw;           
+  border: 0.08vw solid #fff;
+  border-radius: 1.5vh;
+  text-align: right;
+  transition: all 0.6s ease;
+  transform: translate(50%, 50%);
+}
+
+.continue:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.titlebg.animate-move {
+  animation: moveToBottom .5s forwards ease-in-out;
+}
+
+@keyframes moveToBottom {
+  from {
+    top: 20%;
+  }
+  to {
+    top: 60%;
+  }
+}
+
+.description {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'MunikaMedium';
+  color: #ffffff9f;
+  font-size: .4em;
+  text-align: center;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.titlebg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'KaratinaRegular';
+  font-weight: bold;
+  top: 20%;
+  line-height:  -2.5vh;
+  pointer-events: none;
+  user-select: none;
+  font-size: 20.7dvw;
+  color: rgb(255, 246, 231);
+}
+
+.titlebgdirector {
+  position: absolute;
+  top: 0dvh;
+  left: 0dvh;
+  font-family: 'KaratinaRegular';
+  font-weight: bold;
+  top: 20dvh;
+  line-height:  -2.5dvh;
+  pointer-events: none;
+  user-select: none;
+  font-size: 20.7dvw;
+  color: rgb(255, 246, 231);
+  animation: shrink-move 1s forwards;
+}
+
+
+@keyframes shrink-move {
+  from {
+    transform: scale(1) translateY(0);
+  }
+  to {
+    transform: scale(0.5) translateY(-40dvh);
+  }
+}
+
+.sub-title {
+  position: fixed;
+  font-family: 'KaratinaRegular';
+  top: 55dvh;
+  right: 20dvh;
+  color: blanchedalmond;
+  pointer-events: none;
+  user-select: none;
+  font-size: 5dvw;
+}
+.continue:hover .continue-text {
+  color: #303030;
+}
+
+.continue:hover svg {
+  filter: invert(1);
+}
+
+.cursorFollowerDot {
+  position: fixed;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: #fff9dd;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s;
+  mix-blend-mode: difference;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.directorDescription {
+  position: absolute;
+  top: 15.5vw;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'MunikaMedium';
+  color: rgba(255, 255, 255, 0.96); 
+  font-size: 1.5dvh;
+  text-align: center;
+  max-width: 90vw;       
+  line-height: 1;     
+}
+
+
+
+
+.gmail {
+  position: absolute;
+  top: 4vw;
+  left: 50vw;
+  transform: translateX(-50%);
+  font-family: 'karatinaRegular';
+  color: rgba(255, 255, 255, 0.96);
+  font-size: 1.7dvh;
+  letter-spacing: 0.3ch;
+  text-align: center;
+}
+
+
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.continue svg {
+  width: 1.6vh;
+  margin: -0.25vh 0.8vh 1vh;
+  position: absolute;
+  display: flex;
+  transition: all 0.6s ease;
+}
+
+.continue:hover svg {
+  transform: translateX(5px);
+}
+
+.continue-text {
+  margin: 0 1.5vh;
+  font-size: 1.2dvh;
+  color: #fff;
+}

@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    // Enable both JS and TS
+    "allowJs": true,
+    "checkJs": false,
+
+    // Language and module support
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+
+    // Enable TypeScript checking
+    "strict": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    // Don't output JS
+    "noEmit": true,
+
+    // Type safety
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Optional
+    "sourceMap": true
+  },
+  "include": ["src"]
+}
