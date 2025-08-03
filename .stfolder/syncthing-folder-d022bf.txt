@@ -1,5 +1,0 @@
-# This directory is a Syncthing folder marker.
-# Do not delete.
-
-folderID: mytft-hu5f3
-created: 2025-08-02T04:12:39+02:00
