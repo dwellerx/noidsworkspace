@@ -53,7 +53,6 @@ function Home({ musicPlayerRef }) {
               </svg>
               <div className="continue-text">Continue</div>
             </button>
-            <label style={{background: 'transparent',bottom: '48dvh', position: 'relative', fontFamily: 'MunikaMedium', fontSize:'2dvh', zIndex: '50000'}}>Sorry about some items scaling im still working on the website lol</label>
             <div className="sub-title">WELCOME</div>
             <div className="description">
               <div />

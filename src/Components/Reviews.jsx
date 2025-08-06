@@ -33,9 +33,10 @@ const ReviewCard = ({cardPosTop,cardPosLeft,topGiven,leftGiven,stars,description
 
 const StyledWrapper = styled.div`
   .card {
+    transform-origin: top left;
     box-sizing: border-box;
     position: relative;
-    width: 30dvh;
+    width: 16dvw;
     height: 10dvh;
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -52,7 +53,7 @@ const StyledWrapper = styled.div`
     user-select: none;
     font-family: 'KaratinaRegular';
     color: rgba(255, 255, 255, 0.8);
-    gap: 1em;
+    gap: 1dvh;
   }
 
   .avatar-wrapper {
@@ -71,6 +72,7 @@ const StyledWrapper = styled.div`
   .online-indicator {
     position: absolute;
     bottom: .8dvh;
+    border: .1dvh solid black;
     right: 0;
     width: 1dvh;
     height: 1dvh;

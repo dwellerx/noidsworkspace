@@ -202,7 +202,6 @@ end
 
 .titlebg {
   position: absolute;
-  top: 0;
   left: 0;
   font-family: 'KaratinaRegular';
   font-weight: bold;
@@ -217,7 +216,7 @@ end
 .titlebgdirector {
   position: absolute;
   top: 0dvh;
-  left: 0dvh;
+  left: .5dvh;
   font-family: 'KaratinaRegular';
   font-weight: bold;
   top: 20dvh;
@@ -235,7 +234,7 @@ end
     transform: scale(1) translateY(0);
   }
   to {
-    transform: scale(0.5) translateY(-40dvh);
+    transform: scale(0.5) translateY(-35dvh);
   }
 }
 
@@ -330,4 +329,16 @@ end
   margin: 0 1.5vh;
   font-size: 1.2dvh;
   color: #fff;
+}
+.IconGmail {
+  filter: blur(1);
+}
+@media screen and (max-width: 800px) {
+  .directorDescription {
+    font-size: 1.5dvh;
+    top: 20dvh;
+  }
+  .IconGmail,.gmail,.sub-title {
+    opacity: 0;
+  }
 }

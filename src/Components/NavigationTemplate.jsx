@@ -56,6 +56,12 @@ const StyledWrapper = styled.div`
     transition-duration: 400ms;
     transition-property: width, left;
   }
+  @media screen and (max-width: 800px) {
+    button {
+      font-size: 1.1dvh;
+    }
+  }
+}
 `;
 
 export default NavigationTemplate;

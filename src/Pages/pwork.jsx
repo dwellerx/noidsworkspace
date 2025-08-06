@@ -45,21 +45,10 @@ function PWork({ musicPlayerRef }) {
         <ImageContainer />
         <NavigationTemplate topGiven={'2.2dvh'} leftGiven={'25dvh'} text={'About Me'} route={'/aboutme'} />
         <NavigationTemplate topGiven={'2.2dvh'} leftGiven={'38dvh'} text={'Home'} route={'/'} />
-        <label
-          style={{
-            background: 'transparent',
-            bottom: '195dvh',
-            position: 'relative',
-            fontFamily: 'MunikaMedium',
-            fontSize: '2dvh',
-            zIndex: 50000
-          }}
-        >
-          Sorry about some items scaling im still working on the website lol
-        </label>
+
         <AudioVisualizer musicPlayerRef={musicPlayerRef} />
         <ReviewCard
-          cardPosTop={'-169dvh'}
+          cardPosTop={'-167dvh'}
           cardPosLeft={'35dvh'}
           topGiven={'1.3dvh'}
           leftGiven={'7dvh'}
@@ -70,10 +59,10 @@ function PWork({ musicPlayerRef }) {
           icon_path={'../images/43c880aaf025b68a5db9eaf5e7994c17.png'}
         />
         <ReviewCard
-          cardPosTop={'-179dvh'}
+          cardPosTop={'-177dvh'}
           cardPosLeft={'-35dvh'}
           topGiven={'1.3dvh'}
-          leftGiven={'7dvh'}
+          leftGiven={'7dvh'}   
           stars={'⭐⭐⭐⭐'}
           description={
             'you get them done relatively quickly in relation to the time and they are often great, and you are very understanding about price.'
@@ -81,13 +70,13 @@ function PWork({ musicPlayerRef }) {
           icon_path={'../images/bathtubonstilts.png'}
         />
         <ReviewCard
-          cardPosTop={'-189dvh'}
+          cardPosTop={'-187dvh'}
           cardPosLeft={'-0dvh'}
           topGiven={'1.3dvh'}
           leftGiven={'7dvh'}
           stars={'⭐⭐⭐⭐⭐'}
           description={
-            '5/5 Since your scripts are high quality and they are easy to understand About the dead lines you always respect them.Had a great experience overall.'
+            '4/5 Scripts are easy to understand i like the way you work and you get stuff done quite quickly. So yeah would hire you again thank you'
           }
           icon_path={'../images/eres.png'}
         />

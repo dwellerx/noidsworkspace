@@ -41,7 +41,6 @@ function InvalidRoute({ musicPlayerRef }) {
         <NavigationTemplate  topGiven={'2.2dvh'} leftGiven={'25dvh'} text={"Home"} route={'/'}/>
         <NavigationTemplate  topGiven={'2.2dvh'} leftGiven={'33dvh'} text={"About me"} route={'/aboutme'}/>
         <NavigationTemplate  topGiven={'2.2dvh'} leftGiven={'45dvh'} text={"PWORK"} route={'/pwork'}/>
-        <label style={{background: 'transparent',bottom: '48dvh', position: 'relative', fontFamily: 'MunikaMedium', fontSize:'2dvh', zIndex: '50000'}}>Sorry about some items scaling im still working on the website lol</label>
         <AudioVisualizer musicPlayerRef={musicPlayerRef}/>
         <div className='error-description'>Page not found are you sure this is what you are looking for?<div></div> Click the button Above to go back to home.</div>
       </header>

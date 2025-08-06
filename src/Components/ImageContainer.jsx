@@ -11,7 +11,14 @@ const ImageContainer = () => {
         <div className="label">IMAGES</div>
         <div className="image-grid">
           {imagesPaths.map((src, i) => (
-            <img key={i} src={src} className="image" alt='your browser doesn not support this'/>
+            <img 
+  key={i} 
+  src={src} 
+  className="image" 
+  alt="your browser does not support this" 
+  onClick={() => window.open(src)} 
+          />
+ 
           ))}
         </div>
       </div>
@@ -59,7 +66,7 @@ const StyledWrapper = styled.div`
   .image-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 1dvh;
+    gap: 1.5dvh;
     height: 100%;
     width: 100%;
     overflow: auto;
@@ -74,6 +81,12 @@ const StyledWrapper = styled.div`
     max-height: 80%;
     object-fit: cover;
     border-radius: 1dvh;
+    transition: transform .3s ease;
+  }
+
+  .image:hover {
+    cursor: pointer;
+    transform: scale(1.1) rotate(2deg);
   }
 `;
 

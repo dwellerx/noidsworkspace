@@ -6,8 +6,6 @@ const videoLinks = [
     'https://files.catbox.moe/2f38lz.mp4',
     'https://files.catbox.moe/ic3hqk.mp4',
     'https://files.catbox.moe/zkcmrl.mp4',
-    'https://files.catbox.moe/4d6g44.mp4',
-    'https://files.catbox.moe/x2ulpy.mp4',
     'https://files.catbox.moe/cnpdty.mp4',
     'https://files.catbox.moe/wv5f96.mp4',
     'https://files.catbox.moe/y4rmb0.mp4',
